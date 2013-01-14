@@ -1,6 +1,6 @@
 package Dancer::Routes;
 {
-  $Dancer::Routes::VERSION = '20130114.125429';
+  $Dancer::Routes::VERSION = '20130114.110257';
 }
 use strict;
 use warnings;
