@@ -1,6 +1,6 @@
 package Dancer::Routes;
 {
-  $Dancer::Routes::VERSION = '20130114.110257';
+  $Dancer::Routes::VERSION = '20130114.115230';
 }
 use strict;
 use warnings;
@@ -53,16 +53,13 @@ Dancer::Routes - Object base class for any Dancer Routes
 
 =head 1 SYNOPSIS
 
-package MyApp::Dashboard;
-
-use base "Dancer::Routes";
-
-sub main_page :GET("/") :GET(qr/^\/index/) {
-    my $self = shift;
-    $self->template("dashboard");
-}
-
-1;
+    package MyApp::Dashboard;
+    use base "Dancer::Routes";
+    sub main_page :GET("/") :GET(qr/^\/index/) {
+        my $self = shift;
+        $self->template("dashboard");
+    }
+    1;
 
 =head1 DESCRIPTION
 
