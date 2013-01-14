@@ -15,4 +15,4 @@ name: Dancer-Routes
 requires:
   Dancer: 1.3110
   Dancer::Test: 0
-version: 20130114.115230
+version: 20130114.115329

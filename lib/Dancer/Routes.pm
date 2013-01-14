@@ -1,6 +1,6 @@
 package Dancer::Routes;
 {
-  $Dancer::Routes::VERSION = '20130114.115230';
+  $Dancer::Routes::VERSION = '20130114.115329';
 }
 use strict;
 use warnings;
@@ -51,7 +51,7 @@ __END__
 
 Dancer::Routes - Object base class for any Dancer Routes
 
-=head 1 SYNOPSIS
+=head1 SYNOPSIS
 
     package MyApp::Dashboard;
     use base "Dancer::Routes";
